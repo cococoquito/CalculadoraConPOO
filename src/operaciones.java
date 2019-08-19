@@ -7,14 +7,14 @@ public class operaciones {
 
 	public static void main(String[] args) 
 	{
-		JOptionPane.showMessageDialog(null,"Hola amigos");
-		double numero1 = Double.parseDouble(JOptionPane.showInputDialog("Ingrese número 1:"));
-		double numero2 = Double.parseDouble(JOptionPane.showInputDialog("Ingrese número 2:"));;
-		String operacion = JOptionPane.showInputDialog("¿Qué operación desea realizar"
+		JOptionPane.showMessageDialog(null,"Hola mundo");
+		double numero1 = Double.parseDouble(JOptionPane.showInputDialog("Ingrese nÃºmero 1:"));
+		double numero2 = Double.parseDouble(JOptionPane.showInputDialog("Ingrese nÃºmero 2:"));;
+		String operacion = JOptionPane.showInputDialog("Â¿QuÃ© operaciÃ³n desea realizar"
 				+"\n"+"1.Suma"
 				+"\n"+"2.Resta"
-				+"\n"+"3.Multipliación"
-				+"\n"+"4.División");
+				+"\n"+"3.MultipliaciÃ³n"
+				+"\n"+"4.DivisiÃ³n");
 		
 		if(operacion.equals("1"))
 		{
@@ -38,7 +38,7 @@ public class operaciones {
 		{
 			division miDivision = new division();
 			double result = miDivision.dividir(numero1,numero2);
-			JOptionPane.showMessageDialog(null,"Su división es: "+result);
+			JOptionPane.showMessageDialog(null,"Su divisiÃ³n es: "+result);
 		}
 		
 			
